@@ -30,7 +30,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #4285f4;
+  background-color: #EE2930;
   overflow: hidden;
   z-index: 1;
 }
@@ -220,17 +220,16 @@ main {
 
   .app-bar-container {
     display: block;
-    height: 130px;
+    height: 440px;
     max-width: 864px;
     padding: 0 16px;
     box-sizing: border-box;
-    background-color: #4285f4;
   }
 
   .app-bar .logo {
     float: left;
     margin: 0;
-    padding: 0;
+    padding: 20%;
     line-height: 130px;
     font-size: 46px;
   }
@@ -324,7 +323,16 @@ main {
 
   .navdrawer-container li {
     -webkit-flex: 1;
-    flex: 1;
-    text-align: center;
-  }
+		flex: 1;
+		text-align: center;
+	}
+
+	main {
+		margin: 0 auto;
+		/* Height of the header */
+		padding: 60px 16px 16px 16px;
+		font-size: 16px;
+		font-weight: bold;
+		color: red;
+	}
 }

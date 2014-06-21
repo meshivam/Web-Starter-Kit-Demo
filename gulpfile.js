@@ -34,7 +34,7 @@ gulp.task('jshint', function () {
     .pipe($.jshint())
     .pipe($.jshint.reporter('jshint-stylish'))
     .pipe($.jshint.reporter('fail'))
-    .pipe(reload({stream: true}));
+    .pipe(reload({stream: true, once: true}));
 });
 
 // Optimize Images
